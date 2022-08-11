@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautu's Fitness</title>
+    <link rel="shortcut icon" href="ggf/gym.jpg" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        background-image: url('https://wallpaperaccess.com/full/804826.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        background-color: black;
+        color: white;
+        font-style: oblique;
+        width: 80px;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        margin: 20px auto;
+        width: 40%;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        color: white;
+        width: 100px;
+        line-height: 0px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: black;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: aqua;
+    }
+
+    .left img {
+        height: 50px;
+        width: 80px;
+   }
+
+    .btn {
+        color: white;
+        background-color: black;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: aqua;
+        text-decoration: underline;
+
+    }
+
+    .container {
+        border: 2px solid black;
+        border-style: dashed;
+        margin: 75px 30px;
+        width: 35%;
+        padding: 20px 20px;
+        border-radius: 15px;
+    }
+
+    .form_input {
+        padding: 5px;
+
+    }
+
+    .container p {
+        text-decoration: underline;
+        text-decoration-color: goldenrod;
+        font-size: 30px;
+        color: black;
+    }
+
+    .box {
+        position: absolute;
+        border: 2px solid black;
+        border-style: dashed;
+        display: inline-block;
+        margin: 75px 30px;
+        top: 75px;
+        right: 30px;
+        width: 35%;
+        padding: 20px 20px;
+        border-radius: 15px;
+
+    }
+
+    .plan1 {
+        font-size: 30px;
+        color: goldenrod;
+        text-align: center;
+        background-color: black;
+        width: 300px;
+        margin-left: 115px;
+    }
+ 
+
+    .box h1 {
+        text-align: center;
+    }
+    .address{
+        border: 2px solid black;
+        border-style: dashed;
+        margin-left: 30px;
+        
+        width: 35%;
+        padding: 20px 20px;
+        border-radius: 15px;
+    }
+    .address h1{
+        color: black;
+        
+    }
+    .address p{
+        background-color: black;
+        color: goldenrod;
+    }
+    hr{
+        height: 5px;
+        background-color: goldenrod;
+        border: none;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="ggf/gym.jpg" alt=""><hr>
+            Gautu's Fitness
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <p> For any issues: </p>
+            <button class="btn">Call</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <p>Join Our Gym</p>
+        <form action="">
+            <div class="form_input">
+                <input type="text" name="" placeholder="Enter your name:">
+            </div>
+
+            <div class="form_input">
+                <input type="text" name="" placeholder="Enter your weight:">
+            </div>
+            <div class="form_input">
+                <input type="text" name="" placeholder="Enter your height:">
+            </div>
+            <div class="form_input">
+                <input type="text" name="" placeholder="Enter your sex:">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
+    <div class="box">
+        <h1>&#8594 Membership Plans:</h1>
+        <div class="plan1">
+            <p>Monthly Plan: 4000Rs</p>
+        </div>
+        <div class="plan1">
+            <p>3 Month Plan: 10000Rs</p>
+        </div>
+        <div class="plan1">
+            <p>6 Month Plan: 15000Rs</p>
+        </div>
+        <div class="plan1">
+            <p> Yearly Plan: 20000Rs (Includes Zumba And Yoga)</p>  
+        </div>
+    </div>
+
+
+    <div class="address">
+        <h1>Address:</h1>
+        <p>Krishna Bhavan, Opp Green House Restaurant, 67, Nehru Rd, Vile Parle East, Vile Parle, Mumbai, Maharashtra 400057.</p>
+    </div>
+</body>
+
+</html>
